@@ -1,5 +1,5 @@
 {
-  "name": "20231221-next-taskify",
+  "name": "next-taskify",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
