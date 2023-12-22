@@ -1,14 +1,17 @@
+'use client'
+
 import { OrganizationSwitcher, UserButton } from '@clerk/nextjs'
 import { Plus } from 'lucide-react'
 
 import { Header } from '~/components/Header'
 import { Logo } from '~/components/Logo'
 import { Button } from '~/components/ui'
+import { MobileSidebar } from './MobileSidebar'
 
 export const Navbar = () => {
   return (
     <Header>
-      {/* TODO: MobileSidebar */}
+      <MobileSidebar />
 
       <nav className='flex items-center gap-x-4'>
         <div className='hidden md:flex'>
