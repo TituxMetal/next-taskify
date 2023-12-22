@@ -3,7 +3,7 @@ import { Plus } from 'lucide-react'
 
 import { Header } from '~/components/Header'
 import { Logo } from '~/components/Logo'
-import { Button } from '~/components/ui/button'
+import { Button } from '~/components/ui'
 
 export const Navbar = () => {
   return (
